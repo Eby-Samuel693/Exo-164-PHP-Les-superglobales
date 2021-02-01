@@ -7,3 +7,9 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+echo $_SERVER["PHP_SELF"]. "<br>";
+
+echo $_SERVER['SERVER_ADDR']. "<br>";
+
+echo $_SERVER['REMOTE_ADDR'];
